@@ -1,8 +1,9 @@
 
-
 const Navbar = () => {
     return (
-                 <div className='flex gap-6 ml-4 w-full m-4'>
+                 <div  className='flex justify-between 
+        item-center p-4 border-b-2
+         max-w-7xl mx-auto'>
       
       <nav className='flex gap-8'>
         <h2 className='text-2xl '>Recipe Calories</h2>
@@ -19,6 +20,7 @@ const Navbar = () => {
       </nav> 
     
         </div>
+        
     );
 };
 

@@ -1,14 +1,17 @@
 
 import './App.css'
-import Navbar from './Nav/Navbar'
+
+import Banner from './components/Banner/Banner'
+import Navbar from './components/Nav/Navbar'
 
 function App() {
-  
-
-  return (
+   return (
     <>
      
-   < Navbar></Navbar> 
+   <Navbar></Navbar>
+   <Banner>
+    
+   </Banner>
     </>
   )
 }
