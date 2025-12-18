@@ -1,17 +1,15 @@
 
 import './App.css'
-
-import Banner from './components/Banner/Banner'
+ import Banner from './components/Banner/Banner'
 import Navbar from './components/Nav/Navbar'
+import Recipes from './components/Recipes/Recipes'
 
 function App() {
    return (
     <>
-     
    <Navbar></Navbar>
-   <Banner>
-    
-   </Banner>
+   <Banner></Banner> 
+   <Recipes></Recipes>
     </>
   )
 }

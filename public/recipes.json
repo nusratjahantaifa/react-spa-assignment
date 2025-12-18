@@ -1,0 +1,86 @@
+[
+  {
+    "recipe_id": "R001",
+    "recipe_name": "Grilled Chicken",
+    "recipe_image": "https://images.unsplash.com/photo-1604908177522-937f9d4b5f5c",
+    "short_description": "Juicy grilled chicken with simple spices.",
+    "ingredients": [
+      "550 g chicken",
+      "2 tbsp olive oil",
+      "1 tsp salt",
+      "1 tsp black pepper"
+    ],
+    "preparing_time": "30 min",
+    "calories": "320 calories"
+  },
+  {
+    "recipe_id": "R002",
+    "recipe_name": "Vegetable Stir Fry",
+    "recipe_image": "https://images.unsplash.com/photo-1605472566702-7a9a4a65a7e8",
+    "short_description": "Healthy mixed vegetable stir fry.",
+    "ingredients": [
+      "200 g broccoli",
+      "150 g carrot",
+      "100 g capsicum",
+      "120 ml soy sauce"
+    ],
+    "preparing_time": "25 min",
+    "calories": "280 calories"
+  },
+  {
+    "recipe_id": "R003",
+    "recipe_name": "Pasta Alfredo",
+    "recipe_image": "https://images.unsplash.com/photo-1525755662778-989d0524087e",
+    "short_description": "Creamy Alfredo pasta with cheese.",
+    "ingredients": [
+      "250 g pasta",
+      "200 ml cream",
+      "100 g cheese",
+      "2 cloves garlic"
+    ],
+    "preparing_time": "35 min",
+    "calories": "420 calories"
+  },
+  {
+    "recipe_id": "R004",
+    "recipe_name": "Chicken Soup",
+    "recipe_image": "https://images.unsplash.com/photo-1547592166-23ac45744acd",
+    "short_description": "Warm and comforting chicken soup.",
+    "ingredients": [
+      "400 g chicken",
+      "1 onion",
+      "2 cloves garlic",
+      "500 ml water"
+    ],
+    "preparing_time": "40 min",
+    "calories": "250 calories"
+  },
+  {
+    "recipe_id": "R005",
+    "recipe_name": "Beef Burger",
+    "recipe_image": "https://images.unsplash.com/photo-1550547660-d9450f859349",
+    "short_description": "Classic beef burger with fresh toppings.",
+    "ingredients": [
+      "1 beef patty",
+      "1 burger bun",
+      "1 slice cheese",
+      "Lettuce and tomato"
+    ],
+    "preparing_time": "20 min",
+    "calories": "500 calories"
+  },
+  {
+    "recipe_id": "R006",
+    "recipe_name": "Fruit Salad",
+    "recipe_image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+    "short_description": "Fresh and healthy mixed fruit salad.",
+    "ingredients": [
+      "1 apple",
+      "1 banana",
+      "100 g grapes",
+      "2 tbsp honey"
+    ],
+    "preparing_time": "10 min",
+    "calories": "180 calories"
+  }
+]
