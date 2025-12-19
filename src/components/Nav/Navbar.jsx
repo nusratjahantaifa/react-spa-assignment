@@ -1,4 +1,4 @@
-
+import person from '../../assets/img/person-fill (1).svg'
 const Navbar = () => {
     return (
                  <div  className='flex justify-between 
@@ -16,7 +16,7 @@ const Navbar = () => {
         <li>Search</li>
       </ul>
       <button className="btn btn-wide pr-14 rounded pl-2 text-center bg-gray-200">search</button>
-       
+       <img src= {person} alt=""/>
       </nav> 
     
         </div>

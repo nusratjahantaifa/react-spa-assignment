@@ -1,9 +1,9 @@
 
-
+import image from '../../assets/img/7802632.jpg'
 const Banner = () => {
     return (
-        <div className="bg-sky-300"> 
-           
+        <div className='bg-sky-400'>
+        <img src={image} alt="" />
         <h1 className=' text-3xl'>Discover an exceptional cooking 
             class tailored for you!
         </h1>
