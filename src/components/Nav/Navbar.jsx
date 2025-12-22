@@ -15,7 +15,7 @@ const Navbar = () => {
         <li>About</li>
         <li>Search</li>
       </ul>
-      <button className="btn btn-wide pr-14 rounded pl-2 text-center bg-gray-200">search</button>
+      <button className="btn btn-wide pr-14 pl-2 text-center bg-gray-200">search</button>
        <img src= {person} alt=""/>
       </nav> 
     

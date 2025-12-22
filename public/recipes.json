@@ -2,7 +2,8 @@
   {
     "recipe_id": "R001",
     "recipe_name": "Grilled Chicken",
-    "recipe_image": "https://images.unsplash.com/photo-1604908177522-937f9d4b5f5c",
+    "recipe_image": "https://images.unsplash.com/photo-1598515214211-89d3c73ae83b",
+
     "short_description": "Juicy grilled chicken with simple spices.",
     "ingredients": [
       "550 g chicken",
@@ -16,7 +17,8 @@
   {
     "recipe_id": "R002",
     "recipe_name": "Vegetable Stir Fry",
-    "recipe_image": "https://images.unsplash.com/photo-1605472566702-7a9a4a65a7e8",
+    "recipe_image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c",
+
     "short_description": "Healthy mixed vegetable stir fry.",
     "ingredients": [
       "200 g broccoli",
@@ -72,7 +74,8 @@
   {
     "recipe_id": "R006",
     "recipe_name": "Fruit Salad",
-    "recipe_image": "https://images.unsplash.com/photo-1568605114967-8130f3a36994",
+    "recipe_image": "https://pikwizard.com/pw/medium/4d470789ab03ce88b218cea6016dd79d.jpg"
+,
     "short_description": "Fresh and healthy mixed fruit salad.",
     "ingredients": [
       "1 apple",
