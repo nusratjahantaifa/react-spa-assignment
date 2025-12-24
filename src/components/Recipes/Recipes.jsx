@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import Recipe from "../Recipe/Recipe";
-// import Sidebar from "../Sidebar/Sidebar";
+
 const Recipes = () => {
    
    const [recipes, setRecipes] = useState([]) ;  
@@ -30,7 +30,7 @@ fetch('recipes.json')
               recipe={recipe}></Recipe>) 
             }
      </div>      
-     
+
 </div>
  
    

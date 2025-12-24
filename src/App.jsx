@@ -29,7 +29,6 @@ function App() {
   handleWantToCook={handleWantToCook}
 ></Recipes> 
 
- 
 
 </div>
  </>     
