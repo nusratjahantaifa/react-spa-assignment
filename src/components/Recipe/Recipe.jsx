@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types'
-import Sidebar from '../Sidebar/Sidebar';
+
 
 function Recipe({ recipe, handleWantToCook }) {
   // Destructure the recipe object here, inside the function
@@ -17,17 +17,15 @@ function Recipe({ recipe, handleWantToCook }) {
       <div className='flex gap-2 text-1xl'>
         <h4> {preparing_time}</h4>
         {calories}</div>
-
-      <button onClick={() => handleWantToCook(recipe)}>
+ 
+   <button onClick={() => handleWantToCook()}>
         Want to Cook
       </button>
-      <Sidebar wantToCook={recipe || []} />
-    </div>
-  )
-}
+</div>
+  );
+};
 Recipe.propTypes = {
   recipe: PropTypes.object.isRequired
 }
 
 export default Recipe;
-

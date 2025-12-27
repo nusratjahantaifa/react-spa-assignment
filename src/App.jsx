@@ -3,6 +3,7 @@ import './App.css'
 import Banner from './components/Banner/Banner'
 import Navbar from './components/Nav/Navbar'
 import Recipes from './components/Recipes/Recipes'
+import Sidebar from './components/Sidebar/Sidebar';
 
 import { ToastContainer, toast } from "react-toastify";
 
@@ -25,12 +26,15 @@ function App() {
   <Navbar></Navbar>
    <Banner></Banner>
  <div className='md:flex'>
- <Recipes
+
+<div>
+  <Recipes
   handleWantToCook={handleWantToCook}
-></Recipes> 
-
-
+></Recipes>
 </div>
+ <Sidebar wantToCook={wantToCook || []} />   
+</div>
+
  </>     
   );
 }
