@@ -1,13 +1,17 @@
 
-import image from '../../assets/img/7802632.jpg'
+//   import background from '../../assets/img/7802632.jpg'
+//  import Image from '../../assets/img/7802632.jpg'
 const Banner = () => {
     return (
-        <div className='bg-sky-400'>
-        <img src={image} alt="" />
-        <h1 className=' text-3xl'>Discover an exceptional cooking 
-            class tailored for you!
-        </h1>
-<p>
+
+<div className="h-screen bg-[url('https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&fit=crop&w=1600&q=80')] bg-cover bg-center text-black items-center justify-center">
+ <div className="text-center pt-8">
+     <h1 className="text-4xl">
+    Discover an exceptional cooking 
+          class tailored for you!
+  </h1>
+ 
+  <p>
     Paul Friedman is a Master Chef with over 40 
     years of experience in the restaurant industry,
     having owned and operated over 50 successful 
@@ -21,8 +25,9 @@ const Banner = () => {
        
         <button className="bg-gray-400 p-2 m-2 rounded">Our Feedback</button>
         </div>
-        </div>
-    );
+</div>
+</div>
+);
 };
 
 export default Banner;
